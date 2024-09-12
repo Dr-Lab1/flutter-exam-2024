@@ -1,7 +1,7 @@
 class Product {
   final int productId;
   final String productName;
-  final String productBrandName;
+  final String productSku;
   final int productPrice;
   final String productShortName;
   final String createdDate;
@@ -14,7 +14,7 @@ class Product {
   Product({
     required this.productId,
     required this.productName,
-    required this.productBrandName,
+    required this.productSku,
     required this.productPrice,
     required this.productShortName,
     required this.createdDate,
@@ -29,7 +29,7 @@ class Product {
     return Product(
       productId: json['productId'],
       productName: json['productName'],
-      productBrandName: json['productBrandName'],
+      productSku: json['productSku'],
       productPrice: json['productPrice'],
       productShortName: json['productShortName'],
       createdDate: json['createdDate'],
