@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'product_model.dart';
+import 'models/product_model.dart';
 
 class ProductService {
   final String apiUrl = 'https://freeapi.miniprojectideas.com/api/amazon/GetAllProducts';

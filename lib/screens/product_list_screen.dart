@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'product_service.dart';
-import 'product_model.dart';
+import 'services/product_service.dart';
+import 'models/product_model.dart';
 
 class ProductListScreen extends StatefulWidget {
   @override
